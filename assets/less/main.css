@@ -132,14 +132,14 @@ marquee {
   bottom: 30px;
   left: 20px;
   width: 50px;
-  animation: clockwise 2s ease infinite;
+  animation: counterclockwise 1.82s ease infinite;
 }
 #right {
   position: fixed;
   bottom: 30px;
   right: 20px;
   width: 50px;
-  animation: counterclockwise 2s ease infinite;
+  animation: clockwise 1.82s ease infinite;
   animation-delay: 1s;
 }
 /* Safari 4.0 - 8.0 */
@@ -321,14 +321,14 @@ marquee {
     bottom: 150px;
     left: 9%;
     width: 200px;
-    animation: clockwise 2s ease infinite;
+    animation: counterclockwise 1.82s ease infinite;
   }
   #right {
     position: fixed;
     bottom: 150px;
     right: 10%;
     width: 200px;
-    animation: counterclockwise 2s ease infinite;
+    animation: clockwise 1.82s ease infinite;
     animation-delay: 1s;
   }
   /* Safari 4.0 - 8.0 */
