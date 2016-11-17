@@ -126,6 +126,40 @@ marquee {
 	animation-delay: 1s;
 }
 
+#topLeft {
+	position: fixed;
+	top: 30px;
+	left: 20px;
+	width: 50px;
+	animation: bobble 0.45s alternate linear infinite;
+}
+
+#topRight {
+	position: fixed;
+	top: 30px;
+	right: 20px;
+	width: 50px;
+	animation: bobble 0.45s alternate linear infinite;
+	animation-delay: 1s;
+}
+
+
+@keyframes bobble {
+	0% {
+		transform-origin: left;
+		transform:
+		translateX(1rem)
+		rotateZ(30deg);    
+	}
+
+	100% {
+		transform-origin: right;
+		transform:
+		translateX(-1rem)
+		rotateZ(-30deg);    
+	}
+}
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes clockwise {
 	0% {
