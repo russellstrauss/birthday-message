@@ -45,4 +45,9 @@ $(document).ready(function(){
 	});
 	
 	animateCake();
+	
+	$('video').on('loadedmetadata',function(){
+		$(this)[0].currentTime = 7;
+		$(this)[0].play();
+	})
 });
